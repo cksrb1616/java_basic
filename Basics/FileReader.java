@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class FileReader {
     public static void main(String[] args) throws IOException {
-        File file = new File("/Users/minjunchoi/Desktop/captmidn.txt");
+        File file = new File("/../captmidn.txt");
         Scanner scan = new Scanner(file);
 
         String fileContent = "";
